@@ -11,3 +11,16 @@ C:\Users\lucia\Documents\UTN\Diseño de sistemas\TP\TP4\TP4\obj\Debug\netcoreapp
 C:\Users\lucia\Documents\UTN\Diseño de sistemas\TP\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.dll
 C:\Users\lucia\Documents\UTN\Diseño de sistemas\TP\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.pdb
 C:\Users\lucia\Documents\UTN\Diseño de sistemas\TP\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.genruntimeconfig.cache
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\bin\Debug\netcoreapp3.1\TP4.exe
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\bin\Debug\netcoreapp3.1\TP4.deps.json
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\bin\Debug\netcoreapp3.1\TP4.runtimeconfig.json
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\bin\Debug\netcoreapp3.1\TP4.runtimeconfig.dev.json
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\bin\Debug\netcoreapp3.1\TP4.dll
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\bin\Debug\netcoreapp3.1\TP4.pdb
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.csprojAssemblyReference.cache
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.AssemblyInfoInputs.cache
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.AssemblyInfo.cs
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.dll
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.pdb
+C:\Users\lucia\Source\Repos\lucianosarnolfo\DisenoSistemas\TP4\TP4\obj\Debug\netcoreapp3.1\TP4.genruntimeconfig.cache

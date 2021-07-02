@@ -59,6 +59,23 @@ namespace TP4
         }
     }
 
+    public class Control
+    {
+        public Persona persona { get; set; }
+        public double temperatura { get; set; }
+        public String patente { get; set; }
+        public String destino { get; set; }
+        public Boolean aprobado { get; set; }
+
+        public Control(Persona persona, double temperatura, string patente, string destino)
+        {
+            this.persona = persona;
+            this.temperatura = temperatura;
+            this.patente = patente;
+            this.destino = destino;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -71,14 +88,21 @@ namespace TP4
             List<Persona> personas = new List<Persona>();
             List<Persona> autorizadas = new List<Persona>();
             List<Empresa> empresas = new List<Empresa>();
+            List<Control> controles = new List<Control>();
+            List<Persona> rechazada = new List<Persona>();
 
             Empresa empresa1 = new Empresa("RESAK", Actividad.seguridad, "Brinkmann", 1);
-            Empresa empresa2 = new Empresa("RAFITI",Actividad.salud,"San Nicolas",2);
+            Empresa empresa2 = new Empresa("RAFITI", Actividad.salud, "San Nicolas", 2);
 
             Persona persona1 = new Persona(1, "Luciano", "Arnolfo", empresa1);
             Persona persona2 = new Persona(2, "Miguel", "Manrique", empresa1);
             Persona persona3 = new Persona(3, "Jose", "Bossana", empresa1);
             Persona persona4 = new Persona(4, "Maria", "Borgatello", empresa2);
+
+            Control control1 = new Control(persona1, 37.5,"AMV 755", "Miramar");
+            Control control2 = new Control(persona4, 36.1, "MAG 212", "Altos de Chipion");
+            Control control3 = new Control(persona3, 37, "KDA 102", "Brinkmann");
+
 
             personas.Add(persona1);
             personas.Add(persona2);
@@ -86,6 +110,10 @@ namespace TP4
             personas.Add(persona4);
             empresas.Add(empresa1);
             empresas.Add(empresa2);
+            controles.Add(control1);
+            controles.Add(control2);
+            controles.Add(control3);
+
 
 
             do
@@ -139,11 +167,29 @@ namespace TP4
                                     Console.WriteLine("Lista de personas autorizadas:");
                                     foreach (var autorizada in personas)
                                     {
-                                        if (autorizada.habilitacionFin > DateTime.Today) { autorizadas.Add(autorizada); }
+                                        if (autorizada.habilitacionFin > DateTime.Today) { 
+                                            autorizadas.Add(autorizada);
+                                            
+                                            foreach(var control in controles)
+                                            {
+                                                if(autorizada.dNI == control.persona.dNI)
+                                                {
+                                                    if (control.temperatura > 37)
+                                                    {
+                                                        Console.WriteLine("La persona " + control.persona.nombre + " " + control.persona.apellido + " registra una temperatura mayor a 37° de " + control.temperatura+"°\n NO ESTA PERMITIDO EL INGRESO");
+                                                        rechazada.Add(control.persona);
+                                                    }
+                                                    else Console.WriteLine("La persona " + control.persona.nombre + " " + control.persona.apellido + " puede pasar");
+                                                }
+                                            }
+
+
+                                        }
                                     }
 
                                     foreach (var lista in autorizadas)
                                     {
+                                       
                                         Console.WriteLine(lista);
                                     }
                                     autorizadas.Clear();
@@ -159,6 +205,11 @@ namespace TP4
 
                         int ident;
                         Console.Clear();
+                        Console.WriteLine("Lista de empresas:");
+                        foreach (var empresa in empresas)
+                        {
+                            Console.Write(empresa);
+                        }
                         Console.WriteLine("Ingresar ID de la empresa: ");
                         ident = int.Parse(Console.ReadLine());
                         
