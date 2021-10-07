@@ -1,6 +1,8 @@
 El tp esta hecho pero con muchos archivos basura ya que no podia 
 por alguna razon iniciar un proyecto vacio, cree un 
 proyecto asp.net que genera solo el visual studio, cual es problema, 
-por alguna razon no me deja pushear y si subo directamente son
-mas de 400 archivos!!! cuando cree uno vacio y haga copy paste subo 
+por alguna razon no me deja pushear y si subo directamente no me deja 
+por ser muchos archivos, cuando cree uno vacio y haga copy paste subo 
 el tp al repositorio 
+mientras tanto 
+https://www.mediafire.com/folder/y6fh9lgby6rq5/mate5
