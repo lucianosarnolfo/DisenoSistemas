@@ -1,13 +1,8 @@
-El tp esta hecho pero con muchos archivos basura ya que no podia 
-por alguna razon iniciar un proyecto vacio, cree un 
-proyecto asp.net que genera solo el visual studio, cual es problema, 
-por alguna razon no me deja pushear y si subo directamente no me deja 
-por ser muchos archivos, cuando cree uno vacio y haga copy paste subo 
-el tp al repositorio 
-mientras tanto 
+tengo problemas para pushear el tp, mientras tanto voy a subir las iteraciones
+
 iteracion 1
 https://www.mediafire.com/folder/y6fh9lgby6rq5/mate5
 
-registrar y login completo, falta mostrar usuario
+registrar y login terminado, falta mostrar usuario
 iteracion 2
 https://www.mediafire.com/file/nipbpnp78rmlpkr/Matear+25-10-21.rar/file
