@@ -5,4 +5,9 @@ por alguna razon no me deja pushear y si subo directamente no me deja
 por ser muchos archivos, cuando cree uno vacio y haga copy paste subo 
 el tp al repositorio 
 mientras tanto 
+iteracion 1
 https://www.mediafire.com/folder/y6fh9lgby6rq5/mate5
+
+registrar y login completo, falta mostrar usuario
+iteracion 2
+https://www.mediafire.com/file/nipbpnp78rmlpkr/Matear+25-10-21.rar/file
