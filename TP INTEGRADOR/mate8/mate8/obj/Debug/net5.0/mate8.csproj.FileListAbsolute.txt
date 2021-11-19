@@ -1,0 +1,16 @@
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\mate8.exe
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\mate8.deps.json
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\mate8.runtimeconfig.json
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\mate8.runtimeconfig.dev.json
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\mate8.dll
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\ref\mate8.dll
+C:\Users\lucia\source\repos\mate8\mate8\bin\Debug\net5.0\mate8.pdb
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.csproj.AssemblyReference.cache
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.AssemblyInfoInputs.cache
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.AssemblyInfo.cs
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.csproj.CoreCompileInputs.cache
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.dll
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\ref\mate8.dll
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.pdb
+C:\Users\lucia\source\repos\mate8\mate8\obj\Debug\net5.0\mate8.genruntimeconfig.cache
